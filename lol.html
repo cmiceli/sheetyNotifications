@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../sheetyfs/sheetyfs.js"></script>
+<script src="sheetynotifications.js"></script>
+
+<script>
+
+    SheetyFS.setup("chris", "14dNx_ZwFTFXS2qBujSDznWf38rZRTX_RMCKTts_Msbk");
+
+    f = function(data){
+        for (i = 0; i < data.length; i++) {
+            document.write(data[i]);
+        }
+    }
+
+    SheetyNotifications.setup(SheetyFS);
+    SheetyNotifications.register(f);
+    SheetyNotifications.start(2000);
+
+</script>
+
+</body>
+
+</html>
