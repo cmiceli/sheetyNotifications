@@ -1,7 +1,7 @@
 SheetyNotifications
 ===================
 
-After the craze which was sheetyfs, millions were left wondering where a notifications system based on this was.
+After the craze which was [sheetyfs](https://github.com/cmiceli/sheetyfs), millions were left wondering where a notifications system based on this was.
 
 Without further adoo, here it is. SheetyNotifications.
 
